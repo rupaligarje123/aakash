@@ -1,0 +1,154 @@
+package com.example.funchem;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+
+public class easyActivity extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.easy);
+		Button b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12;
+		b1 = (Button) findViewById(R.id.b101);
+        b2 = (Button) findViewById(R.id.b102);
+        b3 = (Button) findViewById(R.id.b103);
+        b4 = (Button) findViewById(R.id.b104);
+        b5 = (Button) findViewById(R.id.b105);
+        b6 = (Button) findViewById(R.id.b106);
+        b7 = (Button) findViewById(R.id.b107);
+        b8 = (Button) findViewById(R.id.b108);
+        b9 = (Button) findViewById(R.id.b109);
+        b10 = (Button) findViewById(R.id.b110);
+        b11 = (Button) findViewById(R.id.b111);
+        b12 = (Button) findViewById(R.id.b112);
+        TextView disp;
+        disp = (TextView) findViewById(R.id.tvDisp);
+		disp.setText("Easy");
+		b1.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent openPlayActivity = new Intent("com.example.funchem.PLAYACTIVITY");
+				startActivity(openPlayActivity);
+			}
+		});
+		b2.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent openPlayActivity = new Intent("com.example.funchem.QUE2");
+				startActivity(openPlayActivity);
+			}
+		});
+		b3.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent openPlayActivity = new Intent("com.example.funchem.QUE3");
+				startActivity(openPlayActivity);
+			}
+		});
+		b4.setOnClickListener(new View.OnClickListener() {
+	
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent openPlayActivity = new Intent("com.example.funchem.QUE4");
+				startActivity(openPlayActivity);
+	}
+});
+	b5.setOnClickListener(new View.OnClickListener() {
+	
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent openPlayActivity = new Intent("com.example.funchem.QUE5");
+				startActivity(openPlayActivity);
+			}
+		});
+	b6.setOnClickListener(new View.OnClickListener() {
+		
+		@Override
+		public void onClick(View v) {
+			// TODO Auto-generated method stub
+			Intent openPlayActivity = new Intent("com.example.funchem.QUE6");
+			startActivity(openPlayActivity);
+		}
+	});
+	b7.setOnClickListener(new View.OnClickListener() {
+		
+		@Override
+		public void onClick(View v) {
+			// TODO Auto-generated method stub
+			Intent openPlayActivity = new Intent("com.example.funchem.QUE7");
+			startActivity(openPlayActivity);
+		}
+	});
+	b8.setOnClickListener(new View.OnClickListener() {
+		
+		@Override
+		public void onClick(View v) {
+			// TODO Auto-generated method stub
+			Intent openPlayActivity = new Intent("com.example.funchem.QUE8");
+			startActivity(openPlayActivity);
+		}
+	});
+	b9.setOnClickListener(new View.OnClickListener() {
+		
+		@Override
+		public void onClick(View v) {
+			// TODO Auto-generated method stub
+			Intent openPlayActivity = new Intent("com.example.funchem.QUE9");
+			startActivity(openPlayActivity);
+		}
+	});
+	b10.setOnClickListener(new View.OnClickListener() {
+		
+		@Override
+		public void onClick(View v) {
+			// TODO Auto-generated method stub
+			Intent openPlayActivity = new Intent("com.example.funchem.QUE10");
+			startActivity(openPlayActivity);
+		}
+	});
+	b11.setOnClickListener(new View.OnClickListener() {
+		
+		@Override
+		public void onClick(View v) {
+			// TODO Auto-generated method stub
+			Intent openPlayActivity = new Intent("com.example.funchem.QUE11");
+			startActivity(openPlayActivity);
+		}
+	});
+	b12.setOnClickListener(new View.OnClickListener() {
+		
+		@Override
+		public void onClick(View v) {
+			// TODO Auto-generated method stub
+			Intent openPlayActivity = new Intent("com.example.funchem.QUE12");
+			startActivity(openPlayActivity);
+		}
+	});
+
+
+
+	}
+
+	@Override
+	protected void onPause() {
+		// TODO Auto-generated method stub
+		super.onPause();
+		
+	}
+	
+
+}

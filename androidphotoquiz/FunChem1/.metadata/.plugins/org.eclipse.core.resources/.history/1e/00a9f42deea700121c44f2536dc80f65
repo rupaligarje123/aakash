@@ -1,0 +1,45 @@
+package com.example.economica;
+
+import android.R.integer;
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.EditText;
+import android.widget.TextView;
+
+public class Report extends Activity{
+	
+	EditText id1, id2, id4;
+	EditText blnc1, blnc2, amnt1;
+	EditText rt1, rt2, rt4;
+	TextView report;
+	
+	
+	protected void onCreate(Bundle savedInstanceState){
+		super.onCreate(savedInstanceState);
+        setContentView(R.layout.report);
+        id1 = (EditText) findViewById(R.id.text_id1);
+        id2 = (EditText) findViewById(R.id.text_id2);
+        id4 = (EditText) findViewById(R.id.text_id4);
+        blnc1 = (EditText) findViewById(R.id.text_blnce1);
+        blnc2 = (EditText) findViewById(R.id.text_blnce2);
+        amnt1 = (EditText) findViewById(R.id.text_loan1);
+        rt1 = (EditText) findViewById(R.id.rate1);
+        rt2 = (EditText) findViewById(R.id.rate2);
+        rt4 = (EditText) findViewById(R.id.rate4);
+        report = (TextView) findViewById(R.id.repo);
+        
+        String myEditValue = blnc1.getText().toString();
+        int myEditNum = Integer.parseInt(myEditValue);
+        report.setText("Balance" + myEditNum);
+        
+        
+        
+        
+        
+        
+        
+        
+        
+	}
+	
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    
+    
+    <TextView
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text=""
+        android:textSize="25sp" >
+    </TextView>
+<RadioGroup 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    >
+    <RadioButton
+        android:id="@+id/rd1201"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Abraham Lincoln" />
+
+    <RadioButton
+        android:id="@+id/rd1202"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Abdul Kalam" />
+
+    <RadioButton
+        android:id="@+id/rd1203"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Rajiv Gandhi" />
+
+    <RadioButton
+        android:id="@+id/rd1204"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Maulana Azad" />
+    </RadioGroup>
+   <TextView
+        android:id="@+id/tvr12"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/Result"
+        android:textSize="25sp" >
+    </TextView>
+    <Button 
+        android:id="@+id/bn12"
+        android:layout_width="80sp"
+        android:layout_height="50sp"
+        android:layout_weight="1"
+        android:text="NEXT"
+        android:textSize="20sp"
+        android:layout_marginLeft="230sp"
+        
+        />
+</LinearLayout>

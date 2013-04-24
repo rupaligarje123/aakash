@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:src="@drawable/pic2" />
+    
+    <TextView
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text=""
+        android:textSize="25sp" >
+    </TextView>
+<RadioGroup 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    >
+    <RadioButton
+        android:id="@+id/rd201"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Isaac Newton" />
+
+    <RadioButton
+        android:id="@+id/rd202"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Graham Bell" />
+
+    <RadioButton
+        android:id="@+id/rd203"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Albert Einstein" />
+
+    <RadioButton
+        android:id="@+id/rd204"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Abraham Lincoln" />
+    </RadioGroup>
+   <TextView
+        android:id="@+id/tvr2"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/Result"
+        android:textSize="25sp" >
+    </TextView>
+    <Button 
+        android:id="@+id/bn2"
+        android:layout_width="80sp"
+        android:layout_height="50sp"
+        android:layout_weight="1"
+        android:text="NEXT"
+        android:textSize="20sp"
+        android:layout_marginLeft="230sp"
+        
+        />
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/pic8" />
+    
+    <TextView
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text=""
+        android:textSize="25sp" >
+    </TextView>
+<RadioGroup 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    >
+    <RadioButton
+        android:id="@+id/rd801"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Abraham Lincon" />
+
+    <RadioButton
+        android:id="@+id/rd802"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Abdul Kalam" />
+
+    <RadioButton
+        android:id="@+id/rd803"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Rajiv Gandhi" />
+
+    <RadioButton
+        android:id="@+id/rd804"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Maulana Azad" />
+    </RadioGroup>
+   <TextView
+        android:id="@+id/tvr8"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/Result"
+        android:textSize="25sp" >
+    </TextView>
+    <Button 
+        android:id="@+id/bn8"
+        android:layout_width="80sp"
+        android:layout_height="50sp"
+        android:layout_weight="1"
+        android:text="NEXT"
+        android:textSize="20sp"
+        android:layout_marginLeft="230sp"
+        
+        />
+</LinearLayout>

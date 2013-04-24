@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FunChem</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Identify Image</string>
+    <string name="Result">Select answer</string>
+    <string name="string1">Start</string>
+
+</resources>

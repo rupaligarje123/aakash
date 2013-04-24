@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:src="@drawable/pic3" />
+    
+    <TextView
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text=""
+        android:textSize="25sp" >
+    </TextView>
+<RadioGroup 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    >
+    <RadioButton
+        android:id="@+id/rd301"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Sunita Williams" />
+
+    <RadioButton
+        android:id="@+id/rd302"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Sarojini Naidu" />
+
+    <RadioButton
+        android:id="@+id/rd303"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Kiran Bedi" />
+
+    <RadioButton
+        android:id="@+id/rd304"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Kalpana Chawla" />
+    </RadioGroup>
+   <TextView
+        android:id="@+id/tvr3"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/Result"
+        android:textSize="25sp" >
+    </TextView>
+    <Button 
+        android:id="@+id/bn3"
+        android:layout_width="80sp"
+        android:layout_height="50sp"
+        android:layout_weight="1"
+        android:text="NEXT"
+        android:textSize="20sp"
+        android:layout_marginLeft="230sp"
+        
+        />
+</LinearLayout>

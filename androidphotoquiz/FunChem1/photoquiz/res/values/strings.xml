@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">photoquiz</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Identify Image</string>
+    <string name="Result">Select answer</string>
+    <string name="string1">Start</string>
+    <string name="String2">Quit</string>
+
+</resources>
